@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário Intermediário</title>
+    <link
+      rel="shortcut icon"
+      href="src/images/favicon-k.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variable.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1 class="title">Mentoria</h1>
+        <p>
+          Preencha o formulário abaixo para agendar<br />
+          a sua mentoria
+        </p>
+      </header>
+
+      <form method="Get" action="index.html" class="form">
+        <h2 class="title">Informações Pessoais</h2>
+
+        <section class="input-name">
+          <div class="input-box">
+            <label for="firstname">Primeiro Nome</label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Digite seu primeiro nome"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="lastname">Sobrenome</label>
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Digite seu sobrenome"
+              required
+            />
+          </div>
+        </section>
+        <section class="input-login">
+          <div class="input-box">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Digite seu email"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="password">Senha</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Digite sua senha"
+              required
+            />
+          </div>
+        </section>
+
+        <h2 class="title">Informações do Mentor</h2>
+        <section class="input-mentor">
+          <div class="input-box">
+            <label for="firstname">Nome do seu Mentor</label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Digite o nome do seu Mentor"
+              required
+            />
+          </div>
+        </section>
+
+        <h2 class="title">Seus Horários Disponíveis</h2>
+
+        <h3 class="title">Primeira Mentoria</h3>
+
+        <section class="input-mentoring">
+          <div class="input-box">
+            <label for="date">Data</label>
+            <input
+              type="date"
+              id="date"
+              name="date"
+              placeholder="Data"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="time">Das</label>
+            <input
+              type="time"
+              id="time"
+              name="time"
+              placeholder="time"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="time">Ás</label>
+            <input
+              type="time"
+              id="time"
+              name="time"
+              placeholder="time"
+              required
+            />
+          </div>
+        </section>
+        <h3 class="title">Segunda Mentoria</h3>
+
+        <section class="input-mentoring">
+          <div class="input-box">
+            <label for="date">Data</label>
+            <input
+              type="date"
+              id="date"
+              name="date"
+              placeholder="Data"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="time">Das</label>
+            <input
+              type="time"
+              id="time"
+              name="time"
+              placeholder="time"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="time">Ás</label>
+            <input
+              type="time"
+              id="time"
+              name="time"
+              placeholder="time"
+              required
+            />
+          </div>
+        </section>
+        <div class="btn">
+          <button>Salvar</button>
+        </div>
+      </form>
+     
+    </main>
+  </body>
+</html>
